@@ -1,0 +1,148 @@
+body {
+    background-color: #2d2d2d;
+}
+h2 {
+    font-family: 'Secular One', sans-serif;
+    font-size: 12px;
+    line-height: 105%;
+    letter-spacing: 0.015em;
+    color: #000000;
+    padding-top: 10px;
+    padding-left: 12px;
+}
+p {
+    font-family: 'Secular One', sans-serif;
+    color: #9a001d;
+    font-size: 12px;
+    padding-bottom: 0;
+}
+
+
+/* bottom navigation */
+.nav {
+    width: 100vw;
+    height: 100px;
+    background-color: #1c1c1c;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0px -4px 5px rgba(0, 0, 0, 0.25);
+}
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.nav-item:hover {
+    box-shadow: inset 0px 4px 5px rgba(0, 0, 0, 0.25);
+}
+.nav-item:active {
+    border-top: 2px solic #9a001d;
+}
+
+i {
+    color: #9a001d;
+    font-size: 40px;
+}
+
+.icon-title {
+    text-transform: uppercase;
+    justify-content: center;
+    padding: 0;
+}
+
+/* arm button and settings */
+.top-section {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+
+}
+.btn {
+    background-color: #9a001d;
+    font-family: 'Secular One', sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #000;
+    margin: 15px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 5px 20px 5px 20px;
+    position: absolute;
+}
+.btn:hover {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+}
+.btn-logo {
+    height: 60px;
+}
+.settings {
+    position: fixed;
+    right: 15px;
+    top: 50px;
+    cursor: pointer;
+}
+
+
+/* rescue me button */
+
+.rescue {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center !important;
+    text-align: center;
+}
+.rescue-button {
+    margin-top: 180px;
+    display: inline-block;
+    position: relative;
+    width: 241px;
+    height: 241px;
+    border-radius: 50%;
+    background: #2D2D2D;
+    box-shadow: inset 0px 0px 10px 15px rgba(28, 28, 28, 0.25);
+    place-items: center;
+    font-family: 'Secular One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 105%;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.085em;
+    -webkit-text-stroke: 2px #707070;
+    color: #2d2d2d;
+}
+.rescue-notification {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.015em;
+    padding: 25px;
+}
+
+/* notifications */
+.content {
+    margin-top: 125px;
+}
+.notification {
+    width:90vw;
+    height: 75px;
+    margin-top: 15px;
+    margin-left: 15px;
+    display: block;
+    position: relative;
+    background: #6595BF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+}
+.notification-message {
+    font-size: 16px;
+    line-height: 105%;
+    color: #FFF;
+    letter-spacing: 0.015em;
+    padding-left: 12px;
+}
