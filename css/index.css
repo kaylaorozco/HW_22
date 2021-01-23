@@ -175,13 +175,20 @@ i {
     justify-content: center;
     align-items: center;
 }
+.pin-pad {
+    color: #FFF;
+    background: none;
+    border: none;
+    width: 100px;
+    height: 100px;
+}
 .checkmark {
     color: #FFF;
-    font-size: small;
+    font-size: 20px;
 }
-.btn-outline-secondary {
-    background-color: none;
-}
+
+
+
 
 /* rescue me button */
 
@@ -289,5 +296,5 @@ i {
 }
 
 .notif-1 {
-    
+
 }
