@@ -1,0 +1,305 @@
+body {
+    background-color: #2d2d2d;
+}
+h2 {
+    font-family: 'Secular One', sans-serif;
+    font-size: 12px;
+    line-height: 105%;
+    letter-spacing: 0.015em;
+    color: #000000;
+    padding-top: 10px;
+    padding-left: 12px;
+}
+p {
+    font-family: 'Secular One', sans-serif;
+    color: #9a001d;
+    font-size: 12px;
+    padding-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* splashscreen */
+.splashscreen {
+    background-color: #9a001d;
+}
+.splash-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.splash-logo {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.logo-text-1 {
+    padding: 0;
+    margin: 0;
+    font-family: 'Secular One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 105%;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.085em;
+}
+.logo-text-2 {
+    padding: 0;
+    margin: 0;
+    font-family: 'Secular One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 105%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #1F2023;
+    text-transform: uppercase;
+}
+.tap-continue {
+    font-family: 'Secular One', sans-serif;
+    font-size: 20px;
+    color: #000;
+}
+.logo-text-1 a, .tap-continue a {
+    color: #000;
+    text-decoration: none;
+}
+.logo-text-2 a{
+    color: #1F2023;
+    text-decoration: none;
+}
+
+/* login page */
+.login-page {
+    background-color: #2d2d2d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.kw-input {
+    width: 90%;
+    height: 50px;
+}
+
+
+/* bottom navigation */
+.nav {
+    width: 100vw;
+    height: 100px;
+    background-color: #1c1c1c;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0px -4px 5px rgba(0, 0, 0, 0.25);
+}
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.nav-item:hover {
+    box-shadow: inset 0px 4px 5px rgba(0, 0, 0, 0.25);
+}
+.nav-item:active {
+    border-top: 2px solic #9a001d;
+}
+
+i {
+    color: #9a001d;
+    font-size: 40px;
+}
+
+.icon-title {
+    text-transform: uppercase;
+    justify-content: center;
+    padding: 0;
+}
+
+/* arm button and settings */
+.top-section {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+
+}
+.btn {
+    background-color: #9a001d;
+    font-family: 'Secular One', sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #000;
+    margin: 15px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 5px 20px 5px 20px;
+    position: absolute;
+}
+.btn:hover {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+}
+.btn a {
+    color: #000;
+    text-decoration: none;
+}
+.btn-armed {
+    background-color: #009A50;
+    font-family: 'Secular One', sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #000;
+    margin: 15px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 5px 20px 5px 20px;
+    position: absolute;
+}
+.btn-logo {
+    height: 60px;
+}
+.settings {
+    position: fixed;
+    right: 15px;
+    top: 50px;
+    cursor: pointer;
+}
+
+/* arm the app */
+
+.arm-app {
+    background: rgb(20, 20, 20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pin-pad {
+    color: #FFF;
+    background: none;
+    border: none;
+    width: 100px;
+    height: 100px;
+}
+.checkmark {
+    color: #FFF;
+    font-size: 20px;
+}
+
+
+
+
+/* rescue me button */
+
+.rescue {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center !important;
+    text-align: center;
+}
+.rescue-button {
+    margin-top: 180px;
+    display: inline-block;
+    position: relative;
+    width: 241px;
+    height: 241px;
+    border-radius: 50%;
+    background: #2D2D2D;
+    box-shadow: inset 0px 0px 10px 15px rgba(28, 28, 28, 0.25);
+    place-items: center;
+    font-family: 'Secular One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 105%;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.085em;
+    -webkit-text-stroke: 2px #707070;
+    color: #2d2d2d;
+    
+}
+.command {
+    color: #2d2d2d;
+    -webkit-text-stroke: 2px #FFF;
+}
+.command a {
+    color: #2d2d2d;
+}
+#rescue-button-armed {
+    margin-top: 180px;
+    display: inline-block;
+    position: relative;
+    width: 241px;
+    height: 241px;
+    border-radius: 50%;
+    background: #2d2d2d;
+    box-shadow: 0px 0px 11px 11px rgba(230, 230, 230, 0.15),
+    inset 0px 0px 10px 15px rgba(28, 28, 28, 0.25);
+    font-family: 'Secular One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 105%;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.085em;
+    color: #2d2d2d;
+    -webkit-text-stroke: 2px #fff;
+    animation-name: loading;
+    animation-duration: 5s;
+}
+
+.rescue-notification {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.015em;
+    padding: 25px;
+}
+.rescue-notification-armed {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.015em;
+    padding: 25px;
+    color: #009A50;
+}
+
+@keyframes loading {
+    0% {background: #2d2d2d;}
+    50% {color: rgb(85, 19, 19);}
+    100% {
+        background: #9a100d;
+        color: #000;
+        -webkit-text-stroke: 1px #000;}
+}
+
+/* notifications */
+.content {
+    margin-top: 125px;
+}
+.notification {
+    width:90vw;
+    height: 75px;
+    margin-top: 15px;
+    margin-left: 15px;
+    display: block;
+    position: relative;
+    background: #6595BF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+}
+.notification-message {
+    font-size: 16px;
+    line-height: 105%;
+    color: #FFF;
+    letter-spacing: 0.015em;
+    padding-left: 12px;
+}
