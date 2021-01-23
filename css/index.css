@@ -17,6 +17,10 @@ p {
     padding-bottom: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* splashscreen */
 .splashscreen {
     background-color: #9a001d;
@@ -221,7 +225,13 @@ i {
     color: #2d2d2d;
     
 }
-
+.command {
+    color: #2d2d2d;
+    -webkit-text-stroke: 2px #FFF;
+}
+.command a {
+    color: #2d2d2d;
+}
 #rescue-button-armed {
     margin-top: 180px;
     display: inline-block;
@@ -244,7 +254,6 @@ i {
     -webkit-text-stroke: 2px #fff;
     animation-name: loading;
     animation-duration: 5s;
-    animation-delay: 1.5s;
 }
 
 .rescue-notification {
@@ -293,8 +302,4 @@ i {
     color: #FFF;
     letter-spacing: 0.015em;
     padding-left: 12px;
-}
-
-.notif-1 {
-
 }
