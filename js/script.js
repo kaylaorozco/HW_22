@@ -5,11 +5,11 @@
 
 // redirected to comfort notifications
 
-$(".brn-armed").click(function(){
+$(".btn-armed").click(function(){
     $(this).text('Contacting Authorities...');
 
-    var delay = 1000;
-    var url = 'comfort.html'
+    var delay = 6500;
+    var url = 'https://kaylaorozco.github.io/HW_22/comfort.html'
     setTimeout(function(){
         window.location = url; }, delay );
-})
+    })
